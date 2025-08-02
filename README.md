@@ -67,6 +67,3 @@ curl -X POST http://localhost:5000/chat \
 #  Show logs
 echo "Captured Attacks:"
 cat data/attacks_log.csv
-
-#  Start the dashboard (run manually if you want analytics UI)
-# streamlit run honeypot/dashboard.py
